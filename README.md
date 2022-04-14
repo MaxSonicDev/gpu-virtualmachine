@@ -1,4 +1,4 @@
-# vfio-windows
+# My configuration for my virtual machine with GPU Passthrough
 
 ## Host
 
