@@ -34,3 +34,4 @@ This is just a repo for make a backup of files and instruction to make a optimiz
 - Windows Optimization 
 - Audio Setup with Scream
 - Command host for Virtual Machine
+- Setup bridge on Network Manager
