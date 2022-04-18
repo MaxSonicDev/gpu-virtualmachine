@@ -1,5 +1,9 @@
 # My configuration for my virtual machine with GPU Passthrough
 
+## Introduction
+
+This is just a repo for make a backup of files and instruction to make a optimized KVM Virtual Machine with PCI-E Passthrough.
+
 ## Host
 
 - OS: Fedora Linux 36 Workstation Edition
