@@ -1,5 +1,8 @@
 # My configuration for my virtual machine with GPU Passthrough
 
+![Screenshot from 2022-04-18 12-41-43](https://user-images.githubusercontent.com/36816420/163797379-64732d4e-8980-47ab-8e80-cb688dd19df6.png)
+*Screenshot of Windows Guest run on the Fedora Host (Remote control with Parsec)*
+
 ## Introduction
 
 This is just a repo for make a backup of files and instruction to make a optimized KVM Virtual Machine with PCI-E Passthrough.
