@@ -37,7 +37,6 @@ In this case, i get Logitech USB Receiver Event mouse for my wireless mouse and 
 ```
 /dev/input/by-id/usb-Logitech_USB_Receiver-if02-event-mouse # Mouse
 /dev/input/by-id/usb-SONiX_Calibur_V2_TE-event-kbd # Keyboard
-
 ```
 
 This line need to added on libvirt configuration.
@@ -53,12 +52,13 @@ change the first line on configuration
 
 and add before `</domain>` and remplace path with your mouse and keyboard
 
-```<qemu:commandline>
+```
+<qemu:commandline>
     <qemu:arg value='-object'/>
     <qemu:arg value='input-linux,id=mouse1,evdev=/dev/input/by-id/usb-Logitech_USB_Receiver-if02-event-mouse'/> # Mouse
     <qemu:arg value='-object'/>
     <qemu:arg value='input-linux,id=kbd1,evdev=/dev/input/by-id/usb-SONiX_Calibur_V2_TE-event-kbd,grab_all=on,repeat=on'/> # Keyboard
-  </qemu:commandline>
+</qemu:commandline>
 ```
 ### Permission
 
