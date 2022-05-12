@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This is just a repo for make a backup of files and instruction to make a optimized KVM Virtual Machine with PCI-E Passthrough.
+This is just a repo for make a backup of files and instruction to make a optimized KVM Virtual Machine with PCI-E Passthrough. This virtual machine is optimized for gaming use.
 
 ## Host
 
