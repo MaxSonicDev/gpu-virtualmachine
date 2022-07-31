@@ -90,9 +90,10 @@ after this put user/group Option
 user = "evdev"
 group = "evdev"
 ```
-If you use a SELinux distro based like Fedora or RHEL, SELinux denied evdev usage by default.
+If you use a SELinux distro based like Fedora or RHEL, SELinux denied evdev usage with qemu/kvm by default.
 The rule to disable this :
 ```
-'WIP'
+ausearch -c "qemu-system-x86" --raw | audit2allow -M my-qemusystemx86
+semodule -X 300 -i my-qemusystemx86.pp
 ```
 
