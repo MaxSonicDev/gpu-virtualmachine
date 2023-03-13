@@ -9,16 +9,16 @@ This is just a repo for make a backup of files and instruction to make a optimiz
 
 ## Host
 
-- OS: Fedora Linux 36 Workstation Edition
-- Kernel: 5.17.7-zen-SumireBestLiellaGirl+ (just custom kernel)
+- OS: Arch Linux
+- Kernel: 6.2.5-zen
 - Motherboard: X470 AORUS ULTRA GAMING
 - CPU: AMD Ryzen 9 3900X
-- Memory: 96 Go DDR4 @ 3000 Mhz
-- GPU 1: AMD Radeon 6600 XT
+- Memory: 80 Go DDR4 @ 3000 Mhz
+- GPU 1: AMD Radeon 6900 XT
 - GPU 2: Nvidia GeForce GTX 1070 (for guest)
-- NVMe 1: PNY CS2130 1 To
+- NVMe 1: Crucial P3 2 To
 - NVMe 2: Crucial P5 2 To (for guest)
-- Other Storage device : Samsung 870 QVO 1 To 
+- Other Storage device : Samsung 870 QVO 1 To, Samsung 870 EVO 1To and Crucial MX500 1 To
 
 ## Guest
 
