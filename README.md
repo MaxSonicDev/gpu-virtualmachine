@@ -13,7 +13,7 @@ This is just a repo for make a backup of files and instruction to make a optimiz
 - Kernel: 6.2.5-zen
 - Motherboard: X470 AORUS ULTRA GAMING
 - CPU: AMD Ryzen 9 3900X
-- Memory: 80 Go DDR4 @ 3000 Mhz
+- Memory: 128 Go DDR4 @ 3200 Mhz
 - GPU 1: AMD Radeon 6900 XT
 - GPU 2: Nvidia GeForce GTX 1070 (for guest)
 - NVMe 1: Crucial P3 2 To
